@@ -7,7 +7,10 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(85, 48, 14), rgb(175, 162, 137));
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 button {
@@ -34,4 +37,13 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#tasks {
+  list-style: none;
+}
+
+label {
+  font-weight: bolder;
+  font-size: 20px;
 }
